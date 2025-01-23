@@ -24,4 +24,4 @@ In this challenge, the goal is to create a reusable card component to display a 
 
 ## Demo
 
-You can check out the live demo of the project at:
+You can check out the live demo of the project at: https://juditvarro.github.io/coffee-listing-app/
