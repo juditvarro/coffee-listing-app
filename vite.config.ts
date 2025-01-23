@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
     define: {
       'process.env.VITE_SOURCE_URL': JSON.stringify(env.VITE_SOURCE_URL),
     },
-  plugins: [react()],
+    plugins: [react()],
+    base: '/coffee-listing-app',
   };
 });
