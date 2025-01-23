@@ -54,7 +54,7 @@ const CoffeeList = (props: CoffeeListProps) => {
   }, [props]);
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-3 sm:gap-8">
+    <div className="grid grid-cols-1 gap-y-4 sm:grid-cols-3 sm:gap-8">
       {cardList.map((item) => (
         <div key={item.id}>
           <CoffeeCard {...item} />

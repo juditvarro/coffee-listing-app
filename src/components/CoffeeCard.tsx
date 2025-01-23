@@ -14,10 +14,10 @@ const CoffeeCard = (props: CoffeeCardProps) => {
   const [favourite, setFavourite] = useState(false);
 
   return (
-    <div className="w-72 sm:w-44 xl:w-72">
+    <div className="w-64 sm:w-44 xl:w-64">
       <div className="rounded-lg overflow-hidden">
         <div
-          className="h-40 sm:h-32 lg:h-40 bg-cover bg-center p-1"
+          className="h-32 sm:h-24 xl:h-32 bg-cover bg-center p-1"
           style={{ backgroundImage: `url(${props.image})` }}
         >
           {props.popular && (
@@ -32,7 +32,7 @@ const CoffeeCard = (props: CoffeeCardProps) => {
           <div className="text-themeWhite font-dm font-medium">
             {props.name}
           </div>
-          <div className="text-themeDarkestGray text-[12px] w-14 text-center font-dm font-medium p-1 bg-themeGreen rounded-lg">
+          <div className="text-themeDarkestGray text-[12px] w-14 max-h-6 text-center font-dm font-medium p-1 bg-themeGreen rounded-lg">
             {props.price}
           </div>
         </div>

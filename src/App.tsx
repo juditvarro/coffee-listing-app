@@ -17,9 +17,9 @@ function App() {
   };
 
   return (
-    <div className="h-screen min-w-96 bg-themeBlack">
-      <div className="bg-cover bg-no-repeat bg-center h-1/5 bg-headerSm lg:bg-headerLg pt-20 px-5 lg:px-44">
-        <div className=" max-h-[90vh] overflow-y-auto min-w-72">
+    <div className="h-screen min-w-80 bg-themeBlack">
+      <div className="bg-cover bg-no-repeat bg-headerSm h-1/3 lg:h-[35vh] xl:h-[30vh] bg-left lg:bg-center xl:bg-center px-5 lg:bg-headerLg xl:px-52">
+        <div className="max-h-[95vh] overflow-y-auto min-w-72">
           <Paper
             title="Our Collection"
             intro="Introducing our Coffee Collection, a selection of unique coffees from different roast types and origins, expertly roasted in small batches and shipped fresh weekly."
